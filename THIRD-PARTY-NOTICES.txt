@@ -1,0 +1,29 @@
+THIRD-PARTY SOFTWARE NOTICES AND INFORMATION
+Secondary Research Workbench (Open-Source Edition, Apache-2.0)
+
+This project incorporates or relies on the following open-source packages under permissive licenses:
+
+Frontend & Build Tooling (npm):
+- React / React DOM (MIT License) — https://react.dev/
+- Vite / @vitejs/plugin-react (MIT License) — https://vite.dev/
+- TypeScript (Apache-2.0 License) — https://www.typescriptlang.org/
+- klinecharts (Apache-2.0 License) — https://klinecharts.com/
+  Notice: Apache-2.0 requires preservation of copyright and NOTICE attributions.
+- lucide-react (ISC License) — https://lucide.dev/
+- esbuild (MIT License) — https://esbuild.github.io/
+
+Server Document Extraction (npm):
+- pdf-parse (MIT License) + bundled Mozilla pdf.js (Apache-2.0 License)
+- mammoth (BSD-2-Clause License)
+- jszip (Dual-licensed MIT or GPLv3; elected under MIT License)
+- pako (MIT AND Zlib License)
+
+Optional Python Quant Engine (PyPI, MIT / BSD / Apache-2.0 only):
+- DuckDB (MIT License) — https://duckdb.org/
+- pandas (BSD-3-Clause License) — https://pandas.pydata.org/
+- NumPy (BSD-3-Clause License) — https://numpy.org/
+- Requests (Apache-2.0 License) — https://requests.readthedocs.io/
+- pytest (MIT License, dev/test only) — https://pytest.org/
+
+Full license texts for installed packages are located in node_modules/<package>/LICENSE
+and your local Python virtual environment site-packages metadata.

@@ -1,0 +1,6 @@
+# Open-Source Quant Engine Requirements (MIT / BSD / Apache-2.0 only)
+duckdb>=1.1.0
+pandas>=2.2.0
+numpy>=1.26.0
+requests>=2.31.0
+pytest>=8.0.0

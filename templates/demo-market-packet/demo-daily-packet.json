@@ -1,0 +1,281 @@
+{
+  "isDemoPacket": true,
+  "demoNotice": "本数据包为内置脱敏离线演示样本（模拟历史交易日结构），用于零配置体验日度复盘、1 分钟分时图谱、证据核验与 HTML 研报导出，不代表真实行情，不构成任何投资建议。",
+  "actualTradeDate": "2026-10-16",
+  "fetchedAt": "2026-10-16T15:15:00+08:00",
+  "totalIntradayBars": 1687,
+  "dateMismatchWarning": null,
+  "marketSummary": {
+    "twoMarketAmtYi": 16842.5,
+    "prevTwoMarketAmtYi": 15420.1,
+    "volDeltaYi": 1422.4,
+    "volDeltaPct": 9.22,
+    "breadth": {
+      "ok": true,
+      "up": 3412,
+      "down": 1698,
+      "flat": 218,
+      "total": 5328,
+      "redRatePct": 64.04,
+      "shAmtYi": 7215.3,
+      "szAmtYi": 9627.2,
+      "bjAmtYi": 215.8
+    }
+  },
+  "indices": [
+    {
+      "code": "000001",
+      "name": "上证指数(演示)",
+      "dailyAuth": { "open": 3348.2, "high": 3392.6, "low": 3341.5, "close": 3386.4, "preClose": 3352.1, "pct": 1.02, "amountYi": 7215.3 },
+      "intraday": {
+        "available": true,
+        "barCount": 241,
+        "openPct": -0.12,
+        "closePct": 1.02,
+        "amplitudePct": 1.52,
+        "closePosPct": 87.9,
+        "firstMinAmtYi": 145.2,
+        "dayHigh": { "price": 3392.6, "time": "14:28" },
+        "dayLow": { "price": 3341.5, "time": "09:42" },
+        "amSession": { "closePct": 0.56 },
+        "pmEarlyHigh": { "price": 3379.8, "time": "13:24" },
+        "maxUp10m": { "fromTime": "10:12", "toTime": "10:22", "deltaPct": 0.48 },
+        "maxDown10m": { "fromTime": "09:32", "toTime": "09:42", "deltaPct": -0.21 },
+        "aboveAvgRatioPct": 78.4,
+        "tail30mPct": 0.14,
+        "tailDirection": "尾盘平稳承接",
+        "sparkline": [
+          { "t": "09:30", "p": -0.12, "a": -0.12 },
+          { "t": "09:42", "p": -0.32, "a": -0.22 },
+          { "t": "10:00", "p": 0.08, "a": -0.09 },
+          { "t": "10:22", "p": 0.56, "a": 0.18 },
+          { "t": "11:00", "p": 0.49, "a": 0.31 },
+          { "t": "11:30", "p": 0.56, "a": 0.39 },
+          { "t": "13:30", "p": 0.82, "a": 0.51 },
+          { "t": "14:28", "p": 1.21, "a": 0.69 },
+          { "t": "15:00", "p": 1.02, "a": 0.74 }
+        ]
+      }
+    },
+    {
+      "code": "399006",
+      "name": "创业板指(演示)",
+      "dailyAuth": { "open": 2185.4, "high": 2248.1, "low": 2178.2, "close": 2236.8, "preClose": 2189.0, "pct": 2.18, "amountYi": 4380.6 },
+      "intraday": {
+        "available": true,
+        "barCount": 241,
+        "openPct": -0.16,
+        "closePct": 2.18,
+        "amplitudePct": 3.19,
+        "closePosPct": 83.8,
+        "firstMinAmtYi": 96.4,
+        "dayHigh": { "price": 2248.1, "time": "14:15" },
+        "dayLow": { "price": 2178.2, "time": "09:38" },
+        "amSession": { "closePct": 1.32 },
+        "pmEarlyHigh": { "price": 2232.0, "time": "13:18" },
+        "maxUp10m": { "fromTime": "10:05", "toTime": "10:15", "deltaPct": 0.85 },
+        "maxDown10m": { "fromTime": "14:20", "toTime": "14:30", "deltaPct": -0.34 },
+        "aboveAvgRatioPct": 84.2,
+        "tail30mPct": 0.22,
+        "tailDirection": "高位换手强收",
+        "sparkline": [
+          { "t": "09:30", "p": -0.16, "a": -0.16 },
+          { "t": "09:38", "p": -0.49, "a": -0.32 },
+          { "t": "10:15", "p": 0.92, "a": 0.25 },
+          { "t": "11:30", "p": 1.32, "a": 0.78 },
+          { "t": "13:30", "p": 1.88, "a": 1.12 },
+          { "t": "14:15", "p": 2.70, "a": 1.54 },
+          { "t": "15:00", "p": 2.18, "a": 1.68 }
+        ]
+      }
+    },
+    {
+      "code": "000688",
+      "name": "科创50(演示)",
+      "dailyAuth": { "open": 982.5, "high": 1018.4, "low": 979.1, "close": 1012.6, "preClose": 984.8, "pct": 2.82, "amountYi": 1368.4 },
+      "intraday": {
+        "available": true,
+        "barCount": 241,
+        "openPct": -0.23,
+        "closePct": 2.82,
+        "amplitudePct": 3.99,
+        "closePosPct": 85.2,
+        "firstMinAmtYi": 38.7,
+        "dayHigh": { "price": 1018.4, "time": "14:22" },
+        "dayLow": { "price": 979.1, "time": "09:36" },
+        "amSession": { "closePct": 1.74 },
+        "pmEarlyHigh": { "price": 1009.0, "time": "13:20" },
+        "maxUp10m": { "fromTime": "10:02", "toTime": "10:12", "deltaPct": 1.04 },
+        "maxDown10m": { "fromTime": "14:25", "toTime": "14:35", "deltaPct": -0.29 },
+        "aboveAvgRatioPct": 86.5,
+        "tail30mPct": 0.31,
+        "tailDirection": "科技主线领涨强收",
+        "sparkline": [
+          { "t": "09:30", "p": -0.23, "a": -0.23 },
+          { "t": "09:36", "p": -0.58, "a": -0.41 },
+          { "t": "10:12", "p": 1.12, "a": 0.34 },
+          { "t": "11:30", "p": 1.74, "a": 1.02 },
+          { "t": "14:22", "p": 3.41, "a": 1.96 },
+          { "t": "15:00", "p": 2.82, "a": 2.15 }
+        ]
+      }
+    }
+  ],
+  "limitPools": {
+    "ok": true,
+    "ztCount": 76,
+    "dtCount": 5,
+    "zbCount": 22,
+    "sealRatePct": 77.55,
+    "burstRatePct": 22.45,
+    "maxBoard": 5,
+    "lianbanCount": 16,
+    "boardLadder": [
+      {
+        "board": 5,
+        "count": 1,
+        "stocks": [
+          { "name": "示例精密A", "code": "009001", "stat": "5天5板", "industry": "先进封装(演示)", "boardStyle": "换手板", "firstSealTime": "09:52:14", "turnoverPct": 18.4, "amountYi": 24.6 }
+        ]
+      },
+      {
+        "board": 3,
+        "count": 2,
+        "stocks": [
+          { "name": "示例光联B", "code": "009002", "stat": "3天3板", "industry": "算力互联(演示)", "boardStyle": "T字板", "firstSealTime": "09:34:08", "turnoverPct": 14.2, "amountYi": 19.8 },
+          { "name": "示例智驱C", "code": "609003", "stat": "3天3板", "industry": "具身智能(演示)", "boardStyle": "换手板", "firstSealTime": "10:18:45", "turnoverPct": 16.5, "amountYi": 12.4 }
+        ]
+      },
+      {
+        "board": 2,
+        "count": 4,
+        "stocks": [
+          { "name": "示例液冷D", "code": "009004", "stat": "2天2板", "industry": "算力互联(演示)", "boardStyle": "换手板", "firstSealTime": "09:46:20", "turnoverPct": 11.8, "amountYi": 9.3 },
+          { "name": "示例材料E", "code": "609005", "stat": "2天2板", "industry": "先进封装(演示)", "boardStyle": "首封换手", "firstSealTime": "10:05:11", "turnoverPct": 9.4, "amountYi": 7.6 }
+        ]
+      }
+    ],
+    "clustersGe3": [
+      { "industry": "算力互联(演示)", "count": 14, "maxBoard": 3, "lianbanStocks": ["示例光联B", "示例液冷D"], "sampleStocks": ["示例光联B", "示例液冷D", "示例高速铜F"] },
+      { "industry": "先进封装(演示)", "count": 11, "maxBoard": 5, "lianbanStocks": ["示例精密A", "示例材料E"], "sampleStocks": ["示例精密A", "示例材料E", "示例测试G"] },
+      { "industry": "具身智能(演示)", "count": 8, "maxBoard": 3, "lianbanStocks": ["示例智驱C"], "sampleStocks": ["示例智驱C", "示例减速器H", "示例传感I"] }
+    ],
+    "dtStocks": [
+      { "name": "示例高位退潮X", "code": "009088", "industry": "高位退潮样本", "days": 2, "sealFundYi": 1.4 }
+    ],
+    "zbSample": [
+      { "name": "示例分歧Y", "code": "009066", "industry": "算力互联(演示)", "pct": 5.4, "firstSealTime": "10:25:00", "openCount": 2 }
+    ]
+  },
+  "watchStocks": [
+    {
+      "code": "009001",
+      "name": "示例精密A",
+      "role": "演示高标样本(5板)",
+      "dailyAuth": { "open": 25.1, "high": 27.39, "low": 24.95, "close": 27.39, "preClose": 24.9, "pct": 10.0, "amountYi": 24.6, "turnoverPct": 18.4 },
+      "intraday": {
+        "available": true,
+        "openPct": 0.8,
+        "closePct": 10.0,
+        "closePosPct": 100,
+        "dayHigh": { "price": 27.39, "time": "09:52" },
+        "dayLow": { "price": 24.95, "time": "09:34" },
+        "aboveAvgRatioPct": 92.5,
+        "tail30mPct": 0,
+        "tailDirection": "封板稳固",
+        "sparkline": [
+          { "t": "09:30", "p": 0.8, "a": 0.8 },
+          { "t": "09:34", "p": 0.2, "a": 0.5 },
+          { "t": "09:45", "p": 6.4, "a": 3.1 },
+          { "t": "09:52", "p": 10.0, "a": 5.8 },
+          { "t": "15:00", "p": 10.0, "a": 8.6 }
+        ]
+      }
+    },
+    {
+      "code": "309010",
+      "name": "示例趋势中军Z",
+      "role": "演示趋势成长容量核心",
+      "dailyAuth": { "open": 112.5, "high": 119.8, "low": 111.9, "close": 118.4, "preClose": 112.8, "pct": 4.96, "amountYi": 68.5, "turnoverPct": 5.1 },
+      "intraday": {
+        "available": true,
+        "openPct": -0.27,
+        "closePct": 4.96,
+        "closePosPct": 82.3,
+        "dayHigh": { "price": 119.8, "time": "14:18" },
+        "dayLow": { "price": 111.9, "time": "09:39" },
+        "aboveAvgRatioPct": 81.2,
+        "tail30mPct": 0.35,
+        "tailDirection": "趋势承接良好",
+        "sparkline": [
+          { "t": "09:30", "p": -0.27, "a": -0.27 },
+          { "t": "09:39", "p": -0.8, "a": -0.52 },
+          { "t": "10:30", "p": 2.4, "a": 0.9 },
+          { "t": "13:30", "p": 4.1, "a": 2.3 },
+          { "t": "14:18", "p": 6.21, "a": 3.5 },
+          { "t": "15:00", "p": 4.96, "a": 3.8 }
+        ]
+      }
+    }
+  ],
+  "usOvernight": {
+    "ok": true,
+    "items": [
+      { "code": "IXIC", "name": "纳斯达克(演示)", "close": 18420.5, "pct": 0.85, "tradeTimeET": "2026-10-15 16:00 ET" },
+      { "code": "SPX", "name": "标普500(演示)", "close": 5845.2, "pct": 0.42, "tradeTimeET": "2026-10-15 16:00 ET" },
+      { "code": "SOX", "name": "费城半导体(演示)", "close": 5210.8, "pct": 1.65, "tradeTimeET": "2026-10-15 16:00 ET" }
+    ]
+  },
+  "evidenceRecord": {
+    "review_date": "2026-10-16",
+    "mode": "archive_replay",
+    "cutoff": "2026-10-16T15:15:00+08:00",
+    "facts": [
+      {
+        "id": "E01",
+        "metric": "两市成交额(演示)",
+        "date": "2026-10-16",
+        "kind": "same_day",
+        "state": "archived",
+        "value": 16842.5,
+        "unit": "亿元",
+        "scope": "离线演示数据包",
+        "source": "templates/demo-market-packet/demo-daily-packet.json",
+        "chain": "DEMO-20261016",
+        "available_at": "2026-10-16T15:05:00+08:00"
+      },
+      {
+        "id": "E02",
+        "metric": "全市场红盘率(演示)",
+        "date": "2026-10-16",
+        "kind": "same_day",
+        "state": "archived",
+        "value": 64.04,
+        "unit": "%",
+        "scope": "离线演示数据包",
+        "source": "templates/demo-market-packet/demo-daily-packet.json",
+        "chain": "DEMO-20261016",
+        "available_at": "2026-10-16T15:05:00+08:00"
+      },
+      {
+        "id": "E03",
+        "metric": "DR001 资金利率",
+        "date": "2026-10-16",
+        "kind": "same_day",
+        "state": "missing",
+        "value": null,
+        "unit": "%",
+        "reason": "离线演示数据包不含宏观货币利率，需由用户按合规口径补充",
+        "chain": "DEMO-20261016",
+        "available_at": null
+      }
+    ]
+  },
+  "evidenceCheck": {
+    "ok": true,
+    "status": "PASS (离线演示包)",
+    "chains": ["DEMO-20261016"],
+    "calculations": [],
+    "errors": []
+  }
+}

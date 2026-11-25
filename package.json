@@ -1,0 +1,46 @@
+{
+  "name": "secondary-research-workbench",
+  "version": "2.0.0",
+  "private": false,
+  "license": "Apache-2.0",
+  "description": "Local-first Markdown equity research workbench with dual-mode KB v2 (SQLite FTS5), interactive K-line terminal, and Python/DuckDB backtesting studio.",
+  "keywords": [
+    "equity-research",
+    "markdown",
+    "local-first",
+    "kb-v2",
+    "sqlite-fts5",
+    "klinecharts",
+    "duckdb",
+    "backtesting",
+    "quantitative-finance"
+  ],
+  "engines": {
+    "node": ">=20.11.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "server": "node server/index.cjs",
+    "server:dev": "node -e \"process.env.SRW_DEV_ORIGIN='1'; require('./server/index.cjs')\"",
+    "typecheck": "tsc --noEmit",
+    "build": "node scripts/build-edition.cjs open_source",
+    "start": "node server/index.cjs",
+    "test": "node server/oss-smoke.test.cjs",
+    "test:kb": "node server/kb-v2.test.cjs"
+  },
+  "dependencies": {
+    "klinecharts": "^10.1.1",
+    "lucide-react": "^0.469.0",
+    "mammoth": "^1.13.0",
+    "pdf-parse": "^1.1.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7"
+  }
+}

@@ -1,0 +1,43 @@
+# Dependencies & build outputs
+node_modules/
+dist/
+release/
+
+# Local user data, runtime state, caches & backups
+data/
+workspaces/
+backups/
+jobs_cache/
+market_packets/
+quant_data/
+*.local.json
+*.local.jsonl
+*.cache.json
+*.duckdb
+*.duckdb.wal
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+.index/
+.env
+.env.local
+
+# Python virtualenv & caches
+quant_engine/.venv/
+.venv/
+**/__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Binaries & logs
+*.exe
+*.zip
+*.log
+
+# OS & editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

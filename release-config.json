@@ -1,0 +1,17 @@
+{
+  "productName": "Secondary Research Workbench (Open-Source)",
+  "appVersion": "2.0.0",
+  "edition": "open_source",
+  "editionLabel": "开源社区版 (Open Source)",
+  "license": "Apache-2.0",
+  "buildDate": "2026-11-25",
+  "enforcementMode": "open_source",
+  "features": {
+    "crypto": false,
+    "liveCryptoExecution": false,
+    "allowCommunityScrapers": false,
+    "showDisclaimerBanner": true,
+    "lockBrandDisclaimer": false
+  },
+  "builtAt": "2026-11-25T09:40:26.921Z"
+}

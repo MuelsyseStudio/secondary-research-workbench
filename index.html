@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>二级投研 · 三库研究工作台</title>
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem('srw-theme') === 'dark' ? 'dark' : 'light';
+          document.documentElement.setAttribute('data-theme', t);
+          document.documentElement.style.backgroundColor = t === 'dark' ? '#0b1220' : '#f8f6f0';
+          document.documentElement.style.color = t === 'dark' ? '#e2e8f0' : '#1e293b';
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root">
+      <div style="min-height:100vh;display:flex;align-items:center;justify-content:center;font-family:-apple-system,BlinkMacSystemFont,'Microsoft YaHei',sans-serif;font-size:13px;opacity:0.75;">
+        正在加载二级投研工作台...
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
